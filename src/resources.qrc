@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bluebullet.png</file>
+        <file>bsusmall.png</file>
+        <file>smallvirus.png</file>
+        <file>bsuverysmall.png</file>
+        <file>pin.png</file>
+        <file>pin2.png</file>
+        <file>boom.png</file>
+        <file>bigvirus.png</file>
+        <file>redbullet.png</file>
+    </qresource>
+</RCC>

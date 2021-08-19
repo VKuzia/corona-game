@@ -1,0 +1,21 @@
+#ifndef DOTSPRITE_H
+#define DOTSPRITE_H
+#include <QGraphicsItem>
+#include <QGraphicsItemAnimation>
+#include "graphicsunit.h"
+
+class DotSprite : public GraphicsUnit
+{
+public:
+    DotSprite(int x, int y, QColor color, qreal size);
+    ~DotSprite() override;
+    QRectF boundingRect() const override;
+    void paint(QPainter* painter, const QStyleOptionGraphicsItem *option,
+               QWidget *widget) override;
+    void Die();
+
+private:
+    QColor color_;
+};
+
+#endif // DOTSPRITE_H
